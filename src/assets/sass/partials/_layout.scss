@@ -1,0 +1,17 @@
+.map-title-container {
+    cursor: pointer;
+    border-top: 2px solid black; 
+    background-color: rgba(0,0,0,.0);
+    transition: background-color ease-in-out .3s;
+    &:hover {
+        background-color: rgba(0,0,0,.3);
+        transition: background-color ease-in-out .3s;
+    }
+    &:last-child {
+        border-bottom: 2px solid black; 
+      }
+}
+
+.footer {
+    padding: 8px;
+}

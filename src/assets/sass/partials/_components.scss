@@ -1,0 +1,42 @@
+
+.content-bg {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .content-tint {
+        background-color: rgba(255,255,255,0.7);
+        height: 100%;
+        .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+
+.content-btn {
+    width: auto;
+    margin: 0 auto;
+    color: white;
+    padding: 4px 8px;
+
+    .content-btn-link {
+        color: rgba(255,255,255,1);
+        text-decoration: none;
+        padding: 4px 8px;
+        color: white;
+        transition:color ease-in-out .3s;
+        &:hover {
+            color: orange;
+            transition:color ease-in-out .3s;
+        }
+    }
+
+
+}
