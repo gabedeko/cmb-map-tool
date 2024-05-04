@@ -12,7 +12,7 @@ export const mapObjects = [
       title: 'White Collar Crime Risk Zones',
       author: ' Brian Clifton, Sam Lavigne and Francis Tseng',
       url: 'https://whitecollar.thenewinquiry.com/',
-      image: 'https://github.com/gabedeko/cmb-map-tool/blob/main/public/images/mapping_project.png?raw=true',
+      image: 'https://github.com/gabedeko/cmb-map-tool/blob/main/public/images/white_collar.png?raw=true',
     },
     {
       index: 2,
